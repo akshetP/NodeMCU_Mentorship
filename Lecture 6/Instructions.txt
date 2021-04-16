@@ -1,0 +1,6 @@
+1. Install the "DHT Sensor Library" and "Thingspeak" library.
+
+2. Go to https://thingspeak.com/ and create an account.
+2.1 Click on 'Channels' and create a new channel.
+2.2 Enter the name, description ad the fields (temp, humidity, etc).
+2.3 Save the channel.

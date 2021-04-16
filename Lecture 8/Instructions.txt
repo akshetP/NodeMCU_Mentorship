@@ -1,0 +1,11 @@
+1. Go to 'www.thingspeak.com' and click on 'Apps' and select 'ThingHTTP' and click on 'New ThingHTTP'.
+2.1 Enter the name.
+2.2 Enter the URL as 'https://www.worldometers.info/coronavirus/country/india/'.
+2.3 Method = GET.
+2.4 For 'Parse String':
+    Right-Click on the number of cases and select 'inspect'
+    Right-Click on '<div+class%3D"maincounter-number">' and select 'Copy'>'Copy XPath'.
+    This will return the XML path of the website from the server.
+
+3. Install the following libraries:
+   Wire.h ; LiquidCrystal_I2C.h ; StringSplitter.h 
